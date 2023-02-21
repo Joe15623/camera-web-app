@@ -13,6 +13,10 @@ Style the element with id="camera", "camera-view", "camera-device", "photo-displ
     width: 100%;
 }
 
+#camera-view, #camera-device, #photo-display{
+    transform: scaleX(-1);
+}
+
 /*
 Style the element with id="take-photo-button"
 */
@@ -20,6 +24,15 @@ Style the element with id="take-photo-button"
     position: fixed;
     bottom: 30px;
     width: 100%;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 3px solid red;
+    padding: 15px 20px;
+    text-align: center;
+    left: calc(50% - 150px);
 }
 
 /*
@@ -29,6 +42,15 @@ Style the element with id="take-photo-button"
     position: fixed;
     bottom: 80px;
     width: 100%;
+  	width: 300px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 3px solid red;
+    padding: 15px 20px;
+    text-align: center;
+    left: calc(50% - 150px);
 }
 
 /*
